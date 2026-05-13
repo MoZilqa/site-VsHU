@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ВШУ</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <div class="window">
+    <aside class="sidebar">
+      <div class="logo">
+        <h1>Главное окно (ВШУ)</h1>
+        <p>Выберите год и раздел</p>
+      </div>
+
+      <div class="years">
+        <button class="year active">2026</button>
+        <button class="year">2025</button>
+        <button class="year">2024</button>
+        <button class="year">2023</button>
+        <button class="year">2022</button>
+        <button class="year">2021</button>
+      </div>
+
+      <div class="info-box">
+        <b>ВШУ</b> — Высшая школа управления<br />
+      </div>
+
+    </aside>
+
+    <main class="main">
+
+      <section id="home">
+        <div class="top">
+          <div>
+            <h2>Разделы</h2>
+            <p>Выберите папку для просмотра</p>
+          </div>
+        </div>
+
+        <div class="folders">
+          <a href="#person" class="folder-card">
+            <div class="folder-icon">📁</div>
+            <h3>Пред</h3>
+            <p>Председатели</p>
+          </a>
+
+          <a href="#person" class="folder-card">
+            <div class="folder-icon">📁</div>
+            <h3>ПЗ</h3>
+            <p>Первые заместители</p>
+          </a>
+
+          <a href="#person" class="folder-card">
+            <div class="folder-icon">📁</div>
+            <h3>Секретарь</h3>
+            <p>Секретариат</p>
+          </a>
+        </div>
+      </section>
+
+      <section id="person" class="profile">
+        <div>
+          <a href="#home" class="back">← Назад</a>
+          <div class="photo">Картинка чела</div>
+        </div>
+
+        <div class="person-info">
+          <h2>Козьмин Анатолий Владиславович</h2>
+          <div class="role">Руководитель Цифровых Технологий 25–26</div>
+
+          <div class="text-block">
+            <h3>ШО ТО ШО ТО</h3>
+            <p>
+              Здесь можно написать информацию о человеке, его роли,
+              достижениях, задачах и вкладе в развитие школы.
+            </p>
+          </div>
+
+          <div class="actions">
+            <div class="action">✅ Сделал это</div>
+            <div class="action">❌ Убрал это</div>
+            <div class="action">⭐ Кайфовал</div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+</body>
+</html>
